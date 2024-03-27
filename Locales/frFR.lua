@@ -48,6 +48,7 @@ L["Level Maxed"] = "(Max)";   --Reached max level
 L["Paragon Reputation"] = "Parangon";
 L["Different Item Types Alert"] = "Le type d'objet est different !";
 L["Click To Read"] = "Clic gauche pour lire";
+L["Item Level"] = STAT_AVERAGE_ITEM_LEVEL or "Niveau d'objet";
 
 
 --String Format
@@ -67,6 +68,7 @@ L["Format Silver Amount"] = SILVER_AMOUNT or "%d Argent";
 L["Format Copper Amount"] = COPPER_AMOUNT or "%d Cuivre";
 L["Format Unit Level"] = UNIT_LEVEL_TEMPLATE or "Niveau %d";
 L["Format Replace Item"] = "Remplace %s";
+L["Format Item Level"] = "Item Level %d";   --_G.ITEM_LEVEL in Classic is different
 
 
 --Settings
@@ -101,6 +103,8 @@ L["Show NPC Name On Page"] = "Afficher le nom du PNJ";
 L["Show NPC Name On Page Desc"] = "Affiche le nom de PNJ sur la page.";
 L["Simplify Currency Rewards"] = "Simplifier les récompenses en monnaie";
 L["Simplify Currency Rewards Desc"] = "Utilise des icônes plus petites pour les récompenses en monnaie et cache leurs noms.";
+L["Mark Highest Sell Price"] = "Marquer le prix de vente le plus élevé";
+L["Mark Highest Sell Price Desc"] = "Vous indique l'objet dont le prix de vente est le plus élevé lorsque vous choisissez une récompense.";
 
 L["Camera Movement"] = "Mouvement de la caméra";
 L["Camera Movement Off"] = "DÉSACTIVÉ";
@@ -110,6 +114,8 @@ L["Maintain Camera Position"] = "Maintenir la position de la caméra";
 L["Maintain Camera Position Desc"] = "Maintien brièvement la position de la caméra après la fin de l’interaction avec les PNJ. L'activation de cette option réduira les mouvements brusques de la caméra causés par la latence entre les dialogues.";
 L["Change FOV"] = "Changer le FOV";
 L["Change FOV Desc"] = "Réduit le champ de vision de la caméra pour zoomer plus près du PNJ.";
+L["Disable Camera Movement Instance"] = "Désactiver en instance";
+L["Disable Camera Movement Instance Desc"] = "Désactiver le mouvement de la caméra en donjon ou en raid.";
 
 L["Input Device"] = "Périphérique d'entrée";
 L["Input Device Desc"] = "Affecte les icônes de raccourci clavier et la disposition de l'UI.";
