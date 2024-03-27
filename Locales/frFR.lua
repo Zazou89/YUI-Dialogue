@@ -68,7 +68,7 @@ L["Format Silver Amount"] = SILVER_AMOUNT or "%d Argent";
 L["Format Copper Amount"] = COPPER_AMOUNT or "%d Cuivre";
 L["Format Unit Level"] = UNIT_LEVEL_TEMPLATE or "Niveau %d";
 L["Format Replace Item"] = "Remplace %s";
-L["Format Item Level"] = "Item Level %d";   --_G.ITEM_LEVEL in Classic is different
+L["Format Item Level"] = "Niveau d'objet %d";   --_G.ITEM_LEVEL in Classic is different
 
 
 --Settings
